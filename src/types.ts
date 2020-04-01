@@ -23,10 +23,10 @@ interface CoursePartThree extends CorsePartDescription {
 
 export type CoursePart = CoursePartOne | CoursePartTwo | CoursePartThree;
 
-export type CourseType = {
+export interface CourseType {
   cours: CoursePart;
 };
 
-export type CoursesType = {
+export interface CoursesType {
   courses: CoursePart[];
 };
